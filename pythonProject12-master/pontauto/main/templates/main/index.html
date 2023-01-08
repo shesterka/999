@@ -1,0 +1,29 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}PontAuto{% endblock %}
+
+{% block content %}
+
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+
+
+</head>
+
+<body>
+
+</body>
+</html>
+
+      <div class="features">
+
+            <h1 align = "center">Аренда авто премиум класса в Москве</h1>
+            <p>Подарите себе и близкому человеку драйв, эмоции, статус. В нашем автопарке вы найдете автомобиль, удовлетворяющий даже самый изысканный вкус.</p>
+           <a href=" {% url 'rental' %}" class="btn btn-warning" role="button" aria-pressed="true">Поехали!</a>
+
+      </div>
+
+{% endblock %}

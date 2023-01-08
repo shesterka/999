@@ -1,0 +1,40 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Отзывы{% endblock %}
+
+{% block content %}
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Отзывы</title>
+    <style>
+        #disqus_thread {
+            width: 50%;
+            margin-left: 25%;
+        }
+    </style>
+</head>
+<body>
+<div id="disqus_thread"></div>
+<script>
+
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = reviews.html; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://pontauto.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>
+{% endblock %}
