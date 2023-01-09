@@ -22,6 +22,14 @@ aside {
    border-right: 5px solid #4d4d4d;
 
 }
+.about-us-item-description {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
 .custom-colored-h1
 {
     color: #fff;
@@ -107,7 +115,7 @@ main .features a {font-size: 20px;}
 .wrap-table {
   position: absolute;
   left: 20.5%;
-  top: 38%;
+  top: 55s%;
 
 }
 
@@ -134,7 +142,7 @@ main .features a {font-size: 20px;}
   --table-cell-font-size: 16px;
   --table-cell-color: #666;
   --table-header-display: table-row;
-  --table-header-bgcolor: #7a90ff;
+  --table-header-bgcolor: #A9D0F5;
   --table-header-cell-display: table-cell;
   --table-header-cell-padding: 20px 0px 20px 0;
   --table-header-cell-font-size: 18px;
