@@ -1,5 +1,5 @@
 {% extends 'main/layout.html' %}
-
+{% load static %}
 {% block title %}PontAuto{% endblock %}
 
 {% block content %}
@@ -14,16 +14,73 @@
 </head>
 
 <body>
-
-</body>
-</html>
+   <h1 class="custom-colored-h1" align = "center">Аренда авто премиум класса в Москве</h1>
 
       <div class="features">
-
-            <h1 align = "center">Аренда авто премиум класса в Москве</h1>
             <p>Подарите себе и близкому человеку драйв, эмоции, статус. В нашем автопарке вы найдете автомобиль, удовлетворяющий даже самый изысканный вкус.</p>
            <a href=" {% url 'rental' %}" class="btn btn-warning" role="button" aria-pressed="true">Поехали!</a>
 
       </div>
 
+ <div>
+
+     <h1 class="custom-colored-h1" align = "center">Популярное или чаще всего берут</h1>
+<div class="wrap-table">
+  <div class="table personal-styles">
+    <div class="table__header">
+      <div class="table__header__cell table__common-cell-1">Название</div>
+      <div class="table__header__cell table__common-cell-2">Описание</div>
+      <div class="table__header__cell table__common-cell-3">цена</div>
+      <div class="table__header__cell table__common-cell-4">Перейти
+      </div>
+    </div>
+    <div class="table__row">
+      <div class="table__cell table__common-cell-1" data-title="Название">Lamborghini Huracan<
+        <img url="../img/1a.jpg" alt="Вид на горы"
+        <p><img src="../img/1a.jpg" alt="Пример" width="150" height="90"></p>
+       </div>
+      <div class="table__cell table__common-cell-2" data-title="Описание">
+        Класс: Спорткары
+        Мощность двигателя: 640 л.с.
+        Объем двигателя: 5.2 литра
+        Разгон 0-100: 2.9 секунды
+        Привод: полный
+        Количество мест: 2
+        Минимальный срок аренды: 1 сутки.</div>
+      <div class="table__cell table__common-cell-3" data-title="Цена">120 000 руб./ сутки</div>
+      <div class="table__cell table__common-cell-4" data-title="Перейти">PlayStation 4</div>
+    </div>
+    <div class="table__row">
+      <div class="table__cell table__common-cell-1" data-title="Название">Mercedes G-class AMG 63</div>
+      <div class="table__cell table__common-cell-2" data-title="Описание">
+        Класс: Внедорожник
+        Мощность двигателя: 571л.с.
+        Объем двигателя: 4 литра твинтурбо
+        Разгон 0-100: 5.4 секунды
+        Привод: полный
+        Количество мест: 5
+        Минимальный срок аренды: 1 сутки</div>
+      <div class="table__cell table__common-cell-3" data-title="Цена">60 000 руб./ сутки</div>
+      <div class="table__cell table__common-cell-4" data-title="Перейти">PlayStation 4</div>
+    </div>
+    <div class="table__row">
+      <div class="table__cell table__common-cell-1" data-title="Название">Nissan GT-R</div>
+      <div class="table__cell table__common-cell-2" data-title="Описание">
+                Класс: Купе
+        Мощность двигателя: 555 л.с.
+        Объем двигателя: 3.8 литра
+        Разгон 0-100: 3.2 секунды
+        Привод: полный
+        Количество мест: 4
+        Минимальный срок аренды: 1 сутки</div>
+      <div class="table__cell table__common-cell-3" data-title="Цена">35 000 руб./ сутки</div>
+      <div class="table__cell table__common-cell-4" data-title="Перейти">PlayStation 4</div>
+    </div>
+
+  </div>
+
+</div>
+</div>
+</body>
+</html>
 {% endblock %}
