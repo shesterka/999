@@ -75,7 +75,12 @@ main .features {
     text-align: center;
     width: 75%;
 }
-
+ .list-group{
+    position: center;
+    margin-left: 230px;
+    margin-top:680px;
+    margin-right:3px;
+ }
 main .features h1 {font-size: 50px;}
 main .features p {max-width: 600px; margin: 20px auto; font-size: 20px;}
 main .features a {font-size: 20px;}
@@ -90,9 +95,6 @@ main .features a {font-size: 20px;}
 }
 
 
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -101,12 +103,14 @@ main .features a {font-size: 20px;}
 }
 
 
+
 .wrap-table {
   position: absolute;
   left: 20.5%;
   top: 38%;
 
 }
+
 
 .personal-styles {
   --table-display: table;
@@ -226,8 +230,6 @@ main .features a {font-size: 20px;}
     display: var(--table-base-display);
     font-family: var(--table-additional-font-family);
   }
-
-
 
 
 
