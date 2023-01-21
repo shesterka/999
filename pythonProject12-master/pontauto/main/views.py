@@ -24,3 +24,12 @@ def reviews(request):
 
 def premium(request):
     return render(request, 'main/premium.html')
+
+def sportcar(request):
+    return render(request, 'main/sportcar.html')
+
+def vnedorozhnik(request):
+    return render(request, 'main/vnedorozhnik.html')
+
+def minivan(request):
+    return render(request, 'main/minivan.html')
