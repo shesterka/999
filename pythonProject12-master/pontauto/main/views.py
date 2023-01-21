@@ -21,3 +21,6 @@ def contacts(request):
 
 def reviews(request):
     return render(request, 'main/reviews.html')
+
+def premium(request):
+    return render(request, 'main/premium.html')
