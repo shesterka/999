@@ -33,3 +33,6 @@ def vnedorozhnik(request):
 
 def minivan(request):
     return render(request, 'main/minivan.html')
+
+def LamborghiniHuracan(request):
+    return render(request, 'main/LamborghiniHuracan.html')
