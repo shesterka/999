@@ -1,4 +1,0 @@
-
-
-
-alert("Javascript подключен");
