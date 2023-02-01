@@ -42,3 +42,6 @@ def Mersedesgel(request):
 
 def Nissan(request):
     return render(request, 'main/Nissan.html')
+
+def rollsroyce(request):
+    return render(request, 'main/rollsroyce.html')
