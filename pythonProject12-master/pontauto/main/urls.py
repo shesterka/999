@@ -14,5 +14,6 @@ urlpatterns = [
     path('minivan', views.minivan, name='minivan'),
     path('LamborghiniHuracan', views.LamborghiniHuracan, name='LamborghiniHuracan'),
     path('Mersedesgel', views.Mersedesgel, name='Mersedesgel'),
+path('Nissan', views.Nissan, name='Nissan'),
 ]
 

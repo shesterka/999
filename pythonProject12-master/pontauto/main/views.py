@@ -39,3 +39,6 @@ def LamborghiniHuracan(request):
 
 def Mersedesgel(request):
     return render(request, 'main/Mersedesgel.html')
+
+def Nissan(request):
+    return render(request, 'main/Nissan.html')
