@@ -45,3 +45,9 @@ def Nissan(request):
 
 def rollsroyce(request):
     return render(request, 'main/rollsroyce.html')
+
+def urus(request):
+    return render(request, 'main/urus.html')
+
+def Rangerover(request):
+    return render(request, 'main/Rangerover.html')
