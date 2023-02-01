@@ -36,3 +36,6 @@ def minivan(request):
 
 def LamborghiniHuracan(request):
     return render(request, 'main/LamborghiniHuracan.html')
+
+def Mersedesgel(request):
+    return render(request, 'main/Mersedesgel.html')

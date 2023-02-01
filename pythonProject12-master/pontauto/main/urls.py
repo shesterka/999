@@ -13,5 +13,6 @@ urlpatterns = [
     path('vnedorozhnik', views.vnedorozhnik, name='vnedorozhnik'),
     path('minivan', views.minivan, name='minivan'),
     path('LamborghiniHuracan', views.LamborghiniHuracan, name='LamborghiniHuracan'),
+    path('Mersedesgel', views.Mersedesgel, name='Mersedesgel'),
 ]
 
