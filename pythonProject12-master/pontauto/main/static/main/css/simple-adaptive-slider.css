@@ -10,6 +10,7 @@
   max-width: 600px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 /* стили для wrapper */
@@ -121,11 +122,34 @@
   cursor: pointer;
 }
 
+
 .itcss__indicator_active {
   background-color: #fff;
+
 }
 
 /* класс для отключения transition */
 .transition-none {
   transition: none;
+}
+
+table { /*таблица*/
+  border-collapse: collapse; /* убирает двойные линии*/
+  border: 2px solid rgb(200,200,200); /* толщина, тип и цвет рамки*/
+  letter-spacing: 1px; /*расстояние между буквами*/
+  font-size: 20px; /*размер текста*/
+}
+
+td, th { /*заголовки и ячейки*/
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px; /*внутренние отсупы внутри ячейки*/
+}
+
+th { /*заголовки*/
+  background-color: rgb(235,235,235); /*заливка ячеек*/
+}
+
+td { /*ячейки*/
+  text-align: center; /*текст по центру*/
+  color: #fff;
 }
