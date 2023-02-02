@@ -153,3 +153,12 @@ td { /*ячейки*/
   text-align: center; /*текст по центру*/
   color: #fff;
 }
+
+p {
+	text-align: justify;
+    font-size: 1.5rem;
+ 	margin-left: 230px;
+	margin-right: 100px ;
+	width: 800px;
+	color: #fff;
+}
