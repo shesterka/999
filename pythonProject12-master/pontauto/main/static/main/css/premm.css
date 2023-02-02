@@ -97,7 +97,7 @@
    color: #c0a97a;
    font-weight: 700;
 }
-.product-wrap1 {
+.product-wrap3 {
   position: absolute;
   right: 610px;
   width: 280px;
@@ -110,7 +110,7 @@
    font-family: Lora;
    text-transform: uppercase;
 }
-.product-wrap4 {
+.product-wrap5 {
   position: absolute;
   right: 310px;
   width: 280px;
@@ -123,67 +123,10 @@
    font-family: Lora;
    text-transform: uppercase;
 }
-.product-wrap5 {
-  position: absolute;
-  right: -300px;
-  width: 280px;
-  top: -2px;
-  border: 3px solid #73AD21;
-  padding: 10px;
-   background: white;
-   padding: 0 0 20px;
-   text-align: center;
-   font-size: 14px;
-   font-family: Lora;
-   text-transform: uppercase;
-}
 .product-wrap6 {
   position: absolute;
-  right: 298px;
+  right: 10px;
   width: 280px;
-  top: 420px;
-  border: 3px solid #73AD21;
-  padding: 10px;
-   background: white;
-   padding: 0 0 20px;
-   text-align: center;
-   font-size: 14px;
-   font-family: Lora;
-   text-transform: uppercase;
-}
-.product-wrap8 {
-  position: absolute;
-  right: -3px;
-  width: 280px;
-  top: 420px;
-  border: 3px solid #73AD21;
-  padding: 10px;
-   background: white;
-   padding: 0 0 20px;
-   text-align: center;
-   font-size: 14px;
-   font-family: Lora;
-   text-transform: uppercase;
-}
-.product-wrap14 {
-  position: absolute;
-  right: -300px;
-  width: 280px;
-  top: 420px;
-  border: 3px solid #73AD21;
-  padding: 10px;
-   background: white;
-   padding: 0 0 20px;
-   text-align: center;
-   font-size: 14px;
-   font-family: Lora;
-   text-transform: uppercase;
-}
-.product-wrap3 {
-  position: absolute;
-  right: 298px;
-  width: 280px;
-  top: 845px;
   border: 3px solid #73AD21;
   padding: 10px;
    background: white;

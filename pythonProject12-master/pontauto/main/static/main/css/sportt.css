@@ -110,7 +110,7 @@
    font-family: Lora;
    text-transform: uppercase;
 }
-.product-wrap4 {
+.product-wrap2 {
   position: absolute;
   right: 310px;
   width: 280px;
@@ -123,11 +123,10 @@
    font-family: Lora;
    text-transform: uppercase;
 }
-.product-wrap5 {
+.product-wrap4 {
   position: absolute;
-  right: -300px;
+  right: 10px;
   width: 280px;
-  top: -2px;
   border: 3px solid #73AD21;
   padding: 10px;
    background: white;
@@ -137,11 +136,11 @@
    font-family: Lora;
    text-transform: uppercase;
 }
-.product-wrap6 {
+.product-wrap7 {
   position: absolute;
-  right: 298px;
+  right: 610px;
   width: 280px;
-  top: 420px;
+  top: 920px;
   border: 3px solid #73AD21;
   padding: 10px;
    background: white;
@@ -151,11 +150,12 @@
    font-family: Lora;
    text-transform: uppercase;
 }
-.product-wrap8 {
+
+.product-wrap9 {
   position: absolute;
-  right: -3px;
+  right: 310px;
   width: 280px;
-  top: 420px;
+  top: 920px;
   border: 3px solid #73AD21;
   padding: 10px;
    background: white;
@@ -165,11 +165,12 @@
    font-family: Lora;
    text-transform: uppercase;
 }
-.product-wrap14 {
+
+.product-wrap10 {
   position: absolute;
-  right: -300px;
+  right: 10px;
   width: 280px;
-  top: 420px;
+  top: 920px;
   border: 3px solid #73AD21;
   padding: 10px;
    background: white;
@@ -179,11 +180,12 @@
    font-family: Lora;
    text-transform: uppercase;
 }
-.product-wrap3 {
+
+.product-wrap11 {
   position: absolute;
-  right: 298px;
+  right: 610px;
   width: 280px;
-  top: 845px;
+  top: 1335px;
   border: 3px solid #73AD21;
   padding: 10px;
    background: white;
@@ -193,3 +195,79 @@
    font-family: Lora;
    text-transform: uppercase;
 }
+
+.product-wrap13 {
+  position: absolute;
+  right: 310px;
+  width: 280px;
+  top: 1335px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+   background: white;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 14px;
+   font-family: Lora;
+   text-transform: uppercase;
+}
+
+.product-wrap15 {
+  position: absolute;
+  right: 10px;
+  width: 280px;
+  top: 1335px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+   background: white;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 14px;
+   font-family: Lora;
+   text-transform: uppercase;
+}
+
+.product-wrap16 {
+  position: absolute;
+  right: 610px;
+  width: 280px;
+  top: 1755px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+   background: white;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 14px;
+   font-family: Lora;
+   text-transform: uppercase;
+}
+
+.product-wrap17 {
+  position: absolute;
+  right: 310px;
+  width: 280px;
+  top: 1755px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+   background: white;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 14px;
+   font-family: Lora;
+   text-transform: uppercase;
+}
+
+.product-wrap18 {
+  position: absolute;
+  right: 10px;
+  width: 280px;
+  top: 1755px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+   background: white;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 14px;
+   font-family: Lora;
+   text-transform: uppercase;
+}
+
