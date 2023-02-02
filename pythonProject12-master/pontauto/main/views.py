@@ -51,3 +51,12 @@ def urus(request):
 
 def Rangerover(request):
     return render(request, 'main/Rangerover.html')
+
+def Bentley(request):
+    return render(request, 'main/Bentley.html')
+
+def Porscheone(request):
+    return render(request, 'main/Porscheone.html')
+
+def bmwx(request):
+    return render(request, 'main/bmwx.html')

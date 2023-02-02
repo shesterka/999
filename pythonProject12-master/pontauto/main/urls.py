@@ -18,5 +18,10 @@ urlpatterns = [
     path('rollsroyce', views.rollsroyce, name='rollsroyce'),
     path('urus', views.urus, name='urus'),
     path('Rangerover', views.Rangerover, name='Rangerover'),
+    path('Bentley', views.Bentley, name='Bentley'),
+    path('Porscheone', views.Porscheone, name='Porscheone'),
+    path('bmwx', views.bmwx, name='bmwx'),
+
+
 ]
 
