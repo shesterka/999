@@ -20,8 +20,19 @@ urlpatterns = [
     path('Rangerover', views.Rangerover, name='Rangerover'),
     path('Bentley', views.Bentley, name='Bentley'),
     path('Porscheone', views.Porscheone, name='Porscheone'),
+    path('ferrari', views.ferrari, name='ferrari'),
     path('bmwx', views.bmwx, name='bmwx'),
-
+    path('porschet', views.porschet, name='porschet'),
+    path('mersedes', views.mersedes, name='mersedes'),
+    path('rolsroyl', views.rolsroyl, name='rolsroyl'),
+    path('audi', views.audi, name='audi'),
+    path('cadillac', views.cadillac, name='cadillac'),
+    path('bmwm', views.bmwm, name='bmwm'),
+    path('mustang', views.mustang, name='mustang'),
+    path('mclaren', views.mclaren, name='mclaren'),
+    path('audir', views.audir, name='audir'),
+    path('hyundai', views.hyundai, name='hyundai'),
+    path('mersedesv', views.mersedesv, name='mersedesv'),
 
 ]
 

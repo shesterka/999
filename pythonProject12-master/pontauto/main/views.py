@@ -60,3 +60,40 @@ def Porscheone(request):
 
 def bmwx(request):
     return render(request, 'main/bmwx.html')
+
+def porschet(request):
+    return render(request, 'main/porschet.html')
+
+def ferrari(request):
+    return render(request, 'main/ferrari.html')
+
+def mersedes(request):
+    return render(request, 'main/mersedes.html')
+
+def rolsroyl(request):
+    return render(request, 'main/rolsroyl.html')
+
+def audi(request):
+    return render(request, 'main/audi.html')
+
+def cadillac(request):
+    return render(request, 'main/cadillac.html')
+
+def bmwm(request):
+    return render(request, 'main/bmwm.html')
+
+def mustang(request):
+    return render(request, 'main/mustang.html')
+
+def mclaren(request):
+    return render(request, 'main/mclaren.html')
+
+def audir(request):
+    return render(request, 'main/audir.html')
+
+def hyundai(request):
+    return render(request, 'main/hyundai.html')
+
+def mersedesv(request):
+    return render(request, 'main/mersedesv.html')
+
