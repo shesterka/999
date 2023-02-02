@@ -9,6 +9,7 @@
 <head>
 
     <meta charset="UTF-8">
+     <link rel="stylesheet" href="{% static 'main/css/indexx.css' %}">
 <style>
    p {
     border: 1px solid #A9D0F5;
@@ -29,7 +30,7 @@
 
  <div>
 
-     <h1 class="custom-colored-h1" align = "center">Популярное или чаще всего берут</h1>
+     <h1 class="custom-colored-h1" align = "center">Популярные</h1>
 <div class="wrap-table">
   <div class="table personal-styles">
     <div class="table__header">
@@ -41,45 +42,50 @@
     </div>
     <div class="table__row">
       <div class="table__cell table__common-cell-1" data-title="Название">Lamborghini Huracan
-        <img url="../img/pasport.png" alt="пример2"
-        <h1><img src="../img/1a.jpg" alt="Пример" width="150" height="90"></h1>
+        <h1><img src="https://avatars.mds.yandex.net/i?id=d2a06737a7a4b0e9741c30b96a7f67bdb4358aeb-8191391-images-thumbs&n=13" alt="Пример" width="150" height="150"></h1>
        </div>
       <div class="table__cell table__common-cell-2" data-title="Описание">
         Класс: Спорткары
         Мощность двигателя: 640 л.с.
         Объем двигателя: 5.2 литра
-        Разгон 0-100: 2.9 секунды
+        Разгон 0-100 км/ч: 2.9 секунды
         Привод: полный
         Количество мест: 2
         Минимальный срок аренды: 1 сутки.</div>
-      <div class="table__cell table__common-cell-3" data-title="Цена">120 000 руб./ сутки</div>
-      <div class="table__cell table__common-cell-4" data-title="Перейти">кнопка</div>
+      <div class="table__cell table__common-cell-3" data-title="Цена">130 000 руб./ сутки</div>
+        <a href=" {% url 'LamborghiniHuracan' %}" class="btn btn-danger" role="button" aria-pressed="true">Кнопка</a>
     </div>
     <div class="table__row">
-      <div class="table__cell table__common-cell-1" data-title="Название">Mercedes G-class AMG 63</div>
+      <div class="table__cell table__common-cell-1" data-title="Название">Mercedes G-class AMG 63
+      <h1><img src="https://avatars.mds.yandex.net/i?id=8911ae119df7df40b6682357b2cb1b62-3744351-images-thumbs&n=13" alt="Пример" width="150" height="150"></h1>
+
+      </div>
+
       <div class="table__cell table__common-cell-2" data-title="Описание">
-        Класс: Внедорожник
-        Мощность двигателя: 571л.с.
+        Класс: Купе
+        Мощность двигателя: 720 л.с.
         Объем двигателя: 4 литра твинтурбо
-        Разгон 0-100: 5.4 секунды
+        Разгон 0-100 км/ч: 2.4 секунды
         Привод: полный
         Количество мест: 5
         Минимальный срок аренды: 1 сутки</div>
-      <div class="table__cell table__common-cell-3" data-title="Цена">60 000 руб./ сутки</div>
-      <div class="table__cell table__common-cell-4" data-title="Перейти">кнопка</div>
+      <div class="table__cell table__common-cell-3" data-title="Цена">57 000 руб./ сутки</div>
+      <a href=" {% url 'mersedes' %}" class="btn btn-danger" role="button" aria-pressed="true">Кнопка</a>
     </div>
     <div class="table__row">
-      <div class="table__cell table__common-cell-1" data-title="Название">Nissan GT-R</div>
+      <div class="table__cell table__common-cell-1" data-title="Название">Nissan GT-R
+          <h1><img src="https://realbritaincompany.com/wp-content/uploads/2019/12/Nissan-GTR-3502-300x300.jpg" alt="Пример" width="150" height="150"></h1>
+       </div>
       <div class="table__cell table__common-cell-2" data-title="Описание">
         Класс: Купе         ///////
-        Мощность двигателя: 555 л.с.
+        Мощность двигателя: 600 л.с.
         Объем двигателя: 3.8 литра
-        Разгон 0-100: 3.2 секунды
+        Разгон 0-100 км/ч: 2.8 секунды
         Привод: полный
         Количество мест: 4
         Минимальный срок аренды: 1 сутки</div>
       <div class="table__cell table__common-cell-3" data-title="Цена">35 000 руб./ сутки</div>
-      <div class="table__cell table__common-cell-4" data-title="Перейти">кнопка</div>
+      <a href=" {% url 'Nissan' %}" class="btn btn-danger" role="button" aria-pressed="true">Кнопка</a>
     </div>
 
 
@@ -99,7 +105,43 @@
         </ul>
     </div>
 
-                <h1 class="custom-colored-h1" align = "center">Почему выбирают нас</h1>
+                <h1 class="custom-colored-h1" align = "center">Почему выбирают нас:</h1>
+
+<div class="post-wrap">
+<div class="post-item">
+<div class="post-item-wrap">
+<a href="" class="post-link">
+<h1 class="post-content">Перед каждой поездкой автомобиль с водителем готовится индивидуально под клиента</h1>
+</a>
+</div>
+</div>
+
+<div class="post-item">
+<div class="post-item-wrap">
+<a href="" class="post-link">
+<h1 class="post-content">возможность насладится вождением автомобиля Premium класса без водителя</h1>
+</a>
+</div>
+</div>
+
+<div class="post-item">
+<div class="post-item-wrap">
+<a href="" class="post-link">
+<h1 class="post-content">Быстрое и грамотное оформление документов</h1>
+</a>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
 {% endblock %}
