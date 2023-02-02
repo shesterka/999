@@ -136,3 +136,48 @@
    font-family: Lora;
    text-transform: uppercase;
 }
+
+.product-wrap12 {
+  position: absolute;
+  right: 610px;
+  width: 280px;
+  top: 920px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+   background: white;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 14px;
+   font-family: Lora;
+   text-transform: uppercase;
+}
+
+.product-wrap14 {
+  position: absolute;
+  right: 310px;
+  width: 280px;
+  top: 920px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+   background: white;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 14px;
+   font-family: Lora;
+   text-transform: uppercase;
+}
+
+.product-wrap20 {
+  position: absolute;
+  right: 10px;
+  width: 280px;
+  top: 920px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+   background: white;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 14px;
+   font-family: Lora;
+   text-transform: uppercase;
+}
