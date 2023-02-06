@@ -34,5 +34,6 @@ urlpatterns = [
     path('hyundai', views.hyundai, name='hyundai'),
     path('mersedesv', views.mersedesv, name='mersedesv'),
 
+
 ]
 

@@ -97,3 +97,5 @@ def hyundai(request):
 def mersedesv(request):
     return render(request, 'main/mersedesv.html')
 
+
+
