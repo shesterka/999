@@ -11,7 +11,7 @@ body {
 }
 
 .item-content {
-   background: #181818;
+   background: #56739d;
    padding: 40px;
 }
 .item-icon {
@@ -45,7 +45,7 @@ body {
  .tab input, .tab-content { display: none; }
    .tab {
     font: 1 rem/1.2 Arial, sans-serif; /* Параметры шрифта */
-    border: 4px solid #181818; /* Параметры рамки */
+    border: 4px solid #56739d; /* Параметры рамки */
     border-radius: 3px; /* Скругляем уголки */
     color: #F0F8FF; /* Цвет текста */
     margin-bottom: 0px; /* Расстояние между пунктами */
@@ -70,7 +70,7 @@ body {
     padding: 10px 20px; /* Поля вокруг текста */
    }
    .tab :checked + .tab-title {
-    background-color: #181818; /* Цвет фона */
+    background-color: #56739d; /* Цвет фона */
     border-radius: 3px 3px 0 0; /* Скругляем уголки */
     color: #fff; /* Цвет текста */
    }
